@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Keep legacy page URLs stable while the HTML files live in /pages.
+RewriteRule ^(billing-statement|dashboard|login|payments|portal|properties|property-details|register|reports|settings|tenant-details|tenants|units|utility-bills)\.html$ pages/$1.html [END]

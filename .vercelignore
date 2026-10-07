@@ -1,0 +1,10 @@
+/.git
+/.vercel
+/.impeccable
+/tmp
+/output
+/database
+/docs
+/README.md
+/skills-lock.json
+/api/config.example.php

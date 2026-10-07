@@ -1,0 +1,25 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/auth.php": { "runtime": "vercel-php@0.9.0" },
+    "api/health.php": { "runtime": "vercel-php@0.9.0" },
+    "api/state.php": { "runtime": "vercel-php@0.9.0" },
+    "api/tenant-state.php": { "runtime": "vercel-php@0.9.0" }
+  },
+  "rewrites": [
+    { "source": "/billing-statement.html", "destination": "/pages/billing-statement.html" },
+    { "source": "/dashboard.html", "destination": "/pages/dashboard.html" },
+    { "source": "/login.html", "destination": "/pages/login.html" },
+    { "source": "/payments.html", "destination": "/pages/payments.html" },
+    { "source": "/portal.html", "destination": "/pages/portal.html" },
+    { "source": "/properties.html", "destination": "/pages/properties.html" },
+    { "source": "/property-details.html", "destination": "/pages/property-details.html" },
+    { "source": "/register.html", "destination": "/pages/register.html" },
+    { "source": "/reports.html", "destination": "/pages/reports.html" },
+    { "source": "/settings.html", "destination": "/pages/settings.html" },
+    { "source": "/tenant-details.html", "destination": "/pages/tenant-details.html" },
+    { "source": "/tenants.html", "destination": "/pages/tenants.html" },
+    { "source": "/units.html", "destination": "/pages/units.html" },
+    { "source": "/utility-bills.html", "destination": "/pages/utility-bills.html" }
+  ]
+}

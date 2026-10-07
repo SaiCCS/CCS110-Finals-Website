@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f4f6f3"><title>Sign in | Room to Live</title><link rel="stylesheet" href="css/style.css?v=ui-ux-20261006a"><script src="js/auth.js?v=auth-flow-20261006b"></script><script src="js/api.js?v=phase2-20261005" defer></script>
+      <script src="js/script.js?v=phase2-20261005" defer></script><script src="js/platform.js?v=ui-ux-20261005a" defer></script><script src="js/route-transitions.js?v=route-motion-20261006a" defer></script></head>
+<body class="market-page login-page" data-page="login">
+  <main class="login-layout">
+    <section class="login-panel" aria-labelledby="login-title">
+      <a class="brand brand-login" href="index.html" aria-label="Room to Live home"><span class="brand-mark market-mark" aria-hidden="true">R</span><span><strong>Room to Live</strong><small>Rental discovery</small></span></a>
+      <div class="login-auth"><div class="login-copy"><h1 id="login-title">Welcome back</h1><p class="muted">Sign in to continue to your rental account.</p></div>
+        <form id="login-form" class="form-stack" novalidate>
+          <label class="field"><span>Username or email</span><input id="login-user" name="user" type="text" autocomplete="username" placeholder="Enter your username or email" required></label>
+          <label class="field"><span>Password</span><span class="password-wrap"><input id="login-password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required><button class="icon-button password-toggle" type="button" aria-label="Show password" title="Show password" data-action="toggle-password"></button></span></label>
+          <div class="form-row form-row-between"><label class="check-field"><input type="checkbox" id="remember-me"><span>Remember me</span></label><button class="text-button" type="button" data-action="forgot-password">Forgot password?</button></div>
+          <p class="form-error" id="login-error" role="alert" hidden></p><button class="button button-primary button-wide" type="submit"><span>Sign in</span><span class="button-spinner" aria-hidden="true"></span></button>
+        </form>
+        <p class="login-register">New to Room to Live? <a href="register.html">Create an account</a></p>
+      </div>
+    </section>
+    <aside class="login-aside" aria-label="Home discovery"><img class="login-photo" src="https://images.unsplash.com/photo-1766792853044-bd397f7b76e9?auto=format&amp;fit=crop&amp;w=2200&amp;q=82" alt="Residential courtyard with balconies and greenery" fetchpriority="high"><div class="login-photo-shade"></div><div class="aside-top"><span>ROOM TO LIVE</span><span class="aside-date">FIND YOUR PLACE</span></div><div class="aside-caption"><p class="aside-kicker">A PLACE THAT FEELS RIGHT</p><h2>Make room<br>for what’s next.</h2><p class="login-aside-copy">Explore apartments and boarding houses across Metro Manila.</p><a href="properties.html" class="login-aside-link">Browse available places <span>↗</span></a></div><p class="login-photo-credit">Photo by <a href="https://unsplash.com/photos/courtyard-of-a-building-with-balconies-and-plants-CraSJMbougU" target="_blank" rel="noreferrer">Nikolai Kolosov / Unsplash</a></p></aside>
+  </main><div class="toast-region" aria-live="polite" aria-atomic="true"></div>
+</body></html>

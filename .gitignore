@@ -1,0 +1,6 @@
+/api/config.php
+/.vercel/
+/.impeccable/
+/tmp/
+/output/
+/skills-lock.json
